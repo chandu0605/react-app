@@ -1,0 +1,19 @@
+h1{
+    color:white
+}
+
+.products-page{
+    background-color:lightblue;
+    padding:20px;
+    width:100vw;
+    
+}
+
+.products-list{ 
+    display: flex;          /* enables row layout */
+    flex-wrap: wrap;        /* wraps to next line if screen is small */
+    gap: 20px;              /* spacing between cards */
+    justify-content: center; /* center align cards */
+    padding: 20px;
+
+}
