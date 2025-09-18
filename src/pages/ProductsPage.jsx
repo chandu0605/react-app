@@ -6,7 +6,11 @@ import "./productspage.css"
 function ProductsPage(){
     return (
         <div className="products-page">
-            <h1>Products</h1>
+            <div className="products-header">
+                <h1>Products</h1>
+                <input type="text" placeholder="Search Products..." className="search-bar"/>
+            </div>
+            
             <div className="products-list">
                 {products.map(({id,product_name,price,product_img}) =>(
                     <ProductsCard
@@ -14,7 +18,7 @@ function ProductsPage(){
                      id={id}
                      product_name={product_name}
                      price={price} 
-                     product_img={`/images/${product_img}`}/>
+                     product_img={product_img}/>
                 ))}
             </div>
         </div>

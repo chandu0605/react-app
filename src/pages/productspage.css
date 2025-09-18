@@ -1,19 +1,31 @@
 h1{
-    color:white
+    color:blue;
 }
 
 .products-page{
     background-color:lightblue;
     padding:20px;
     width:100vw;
-    
 }
 
 .products-list{ 
-    display: flex;          /* enables row layout */
-    flex-wrap: wrap;        /* wraps to next line if screen is small */
-    gap: 20px;              /* spacing between cards */
-    justify-content: center; /* center align cards */
+    display: flex;          
+    flex-wrap: wrap;        
+    gap: 20px;              
+    justify-content: center; 
     padding: 20px;
+}
 
+.search-bar{
+    width:500px;
+    height: 20px;
+    background-color:white;
+    border-radius:5px;
+    color:black;
+
+}
+
+.products-header{
+    align-items:center;
+    margin-bottom:20px;
 }

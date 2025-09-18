@@ -1,0 +1,29 @@
+.product_image_container{
+    width:500px;
+    height:500px;
+    border:2px solid red;
+    margin:30px;
+    background-color: aqua;
+
+
+}
+
+.product-details-card{
+    background-color:lightgreen;
+    width:100vw;
+    height:100vh;
+    margin-top:20px;
+    display: flex;
+}
+
+.product-details-container{
+    background-color:lightyellow;
+    margin:40px;
+    font-size: 25px;
+    display: column;
+    border:2px solid blue;
+    width:700px;
+    height:505px;
+    padding-bottom:30px;
+    
+}
